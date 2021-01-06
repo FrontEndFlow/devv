@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background: #f5f9ff;
+}
+
+/* Main Styling */
+.main .site_content {
+    display: grid;
+    grid-template-columns: 15% 43% 20%;
+}
+
+/* Post Card Styling */
+.main .post_card {
+    margin-top: 20px;
+    border: 1.7px solid #dddddd;
+    border-radius: 6px;
+    background: #ffffff;
+    transition: all .2s ease;
+}
+
+.post_card:hover {
+    transition: all .2s ease;
+    box-shadow: 0px 2px 12px #d6d6d6;
+}
+
+.post_card {
+    width: 95%;
+}
+
+/* Postcard Img Style */
+.post_img {
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid #c2c2c2;
+}
+/* Postcard Text Style */
+.post_texts {
+    padding: 20px;
+}
+/* Postcard title Style */
+.post_title {
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+/* Postcard tags Style */
+.post_tags {
+    padding-top: 7px;
+    color: #465b74;
+}
+
+.post_tags a {
+    text-decoration: none;
+    color: #00c281;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+.post_tags a:hover {
+    background: #ecf3ff;
+    color: #00b679;
+    text-decoration: underline;
+}
+/* Postcard Meta Style */
+.post_meta {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 5px;
+    background: rgba(0, 255, 136, 0.288);
+    color: #636363;
+}
+
+.post_meta span {
+    padding: 3px 6px;
+}
+
+/* right Sidebar CSS */
+
+.right_sidebar {
+    margin-top: 20px;
+}
+
+/* Site Search CSS (Sidebar) */
+
+.site_search {
+    background: #ffffff;
+    border-radius: 7px;
+    border: 1.7px solid #dddddd80;
+}
+
+.site_search input {
+    background: #f7fcff;
+    border: 1px solid #0043697e;
+    margin: 15px;
+    border-radius: 6px;
+    width: 90%;
+    padding: 8px 6px;
+    font-size: 1.2rem;
+    outline: none;
+    transition: all .2s ease;
+}
+
+.site_search input:focus {
+    background: #fff;
+    box-shadow: 1.5px 1.5px 1px #00b679;
+    transition: all .2s ease;
+}
+
+/* Sidebar Popular Post */
+
+.learn_web_programming {
+    background: #fff;
+    border-radius: 7px;
+    margin-top: 20px;
+    border: 1.7px solid #dddddd80;
+    box-shadow: 0px 2px 6px #d6d6d6;
+}
+
+.learn_web_programming h2 {
+    border-bottom: 1px solid #acacac;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.learn_web_programming a {
+    text-decoration: none;
+    color: #252525;
+    transition: all .2s ease;
+}
+
+.learn_web_programming a:hover {
+    color: #00aa71;
+    transition: all .2s ease;
+}
+
+.popular_posts_link {
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 1px solid #c2c2c2;
+    font-size: 1rem;
+    transition: all .2s ease;
+}
+
+.popular_posts_link:hover {
+    background: #f7fcff;
+    color: #00aa71;
+    transition: all .2s ease;
+}
+
+/* Styling Icons */
+.html_icon {
+  font-size: 2rem;
+}
